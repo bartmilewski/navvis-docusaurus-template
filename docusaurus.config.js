@@ -23,19 +23,19 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} NavVis GmbH.`,
     },
     // The following determines the dark/light mode switch styling
-    colorMode: {
-      respectPrefersColorScheme: true,
-      switchConfig: {
-        lightIcon: "\u{25CB}",
-        darkIcon: "\u{25CF}",
-        darkIconStyle: {
-          color: `#f4f4f4`,
-        },
-        lightIconStyle: {
-          color: `#f4f4f4`,
-        },
-      },
-    },
+    //colorMode: {
+    //  respectPrefersColorScheme: true,
+    //  switchConfig: {
+    //    lightIcon: "\u{25CB}",
+    //    darkIcon: "\u{25CF}",
+    //    darkIconStyle: {
+    //      color: `#f4f4f4`,
+    //    },
+    //    lightIconStyle: {
+    //      color: `#f4f4f4`,
+    //    },
+    //  },
+    // },
   },
   presets: [
     [
